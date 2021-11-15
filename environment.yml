@@ -1,0 +1,16 @@
+name: heroku_pone
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pandas
+  - numpy
+  - scikit-learn
+  - requests
+  - uvicorn
+  - gunicorn
+  - pytest
+  - fastapi=0.63.0
+  - jupyter
+  - dvc
+  - python=3.8
